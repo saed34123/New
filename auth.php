@@ -1,43 +1,47 @@
 <?php
-require_once 'config.php';
-session_start();
+// بدء الجلسة إذا لم تكن قد بدأت بالفعل
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 class Auth {
-    public static function isAuthenticated() {
+    // دالة لتسجيل الدخول
+    public function login($username, $password) {
+        // هنا يمكنك إضافة التحقق من اسم المستخدم وكلمة المرور في قاعدة البيانات
+        // هذا مثال بسيط للتوضيح
+        $validUsername = 'admin'; // اسم المستخدم الصحيح
+        $validPassword = 'password'; // كلمة المرور الصحيحة
+
+        if ($username === $validUsername && $password === $validPassword) {
+            $_SESSION['user_id'] = 1; // حفظ معرف المستخدم في الجلسة
+            $_SESSION['username'] = $username; // حفظ اسم المستخدم في الجلسة
+            return true;
+        }
+        return false;
+    }
+
+    // دالة لتسجيل الخروج
+    public function logout() {
+        // إزالة جميع بيانات الجلسة
+        session_unset();
+        session_destroy();
+    }
+
+    // دالة للتحقق من حالة تسجيل الدخول
+    public function isLoggedIn() {
         return isset($_SESSION['user_id']);
     }
-    
-    public static function requireAuth() {
-        if (!self::isAuthenticated()) {
-            http_response_code(401);
-            echo json_encode(['error' => 'Authentication required']);
-            exit;
-        }
+
+    // دالة للحصول على اسم المستخدم الحالي
+    public function getUsername() {
+        return isset($_SESSION['username']) ? $_SESSION['username'] : null;
     }
-    
-    public static function getCurrentUser() {
-        if (!self::isAuthenticated()) {
-            return null;
-        }
-        
-        global $conn;
-        $stmt = $conn->prepare('SELECT id, username, email, balance FROM users WHERE id = ?');
-        $stmt->bind_param('i', $_SESSION['user_id']);
-        $stmt->execute();
-        $result = $stmt->get_result();
-        
-        return $result->fetch_assoc();
-    }
-    
-    public static function logout() {
-        session_destroy();
-        return ['success' => true, 'message' => 'Logged out successfully'];
+
+    // دالة للحصول على معرف المستخدم الحالي
+    public function getUserId() {
+        return isset($_SESSION['user_id']) ? $_SESSION['user_id'] : null;
     }
 }
 
-// Handle logout request
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && $_GET['action'] === 'logout') {
-    header('Content-Type: application/json');
-    echo json_encode(Auth::logout());
-    exit;
-}
+// إنشاء كائن من الفئة Auth
+$auth = new Auth();
