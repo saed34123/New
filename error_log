@@ -1,0 +1,164 @@
+[01-Jan-2025 23:32:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[01-Jan-2025 23:32:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[01-Jan-2025 23:32:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[01-Jan-2025 23:32:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 10:46:37 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 10:46:37 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 10:46:37 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 10:46:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 10:52:31 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 10:52:31 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 10:52:31 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 10:52:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 11:38:48 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 11:38:48 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 11:38:48 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 11:38:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 11:41:13 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 11:41:13 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 11:41:13 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 11:41:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 11:41:16 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 11:41:16 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 11:41:16 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 11:41:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/login.php on line 3
+[02-Jan-2025 11:41:17 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 11:41:17 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 11:41:17 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 11:41:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 11:41:20 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 11:41:20 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 11:41:20 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 11:41:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/login.php on line 3
+[02-Jan-2025 11:50:04 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 11:50:04 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 11:50:04 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:11:33 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:11:33 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:11:33 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:11:33 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 3
+[02-Jan-2025 12:14:39 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:14:39 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:14:39 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:14:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 8
+[02-Jan-2025 12:14:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:14:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:14:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:14:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 8
+[02-Jan-2025 12:14:42 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:14:42 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:14:42 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:14:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/register.php on line 8
+[02-Jan-2025 12:15:06 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:15:06 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:15:06 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:15:30 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:15:30 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:15:30 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:15:30 UTC] PHP Notice:  Undefined variable: conn in /home/fliket/public_html/register.php on line 25
+[02-Jan-2025 12:15:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/fliket/public_html/register.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/register.php on line 25
+[02-Jan-2025 12:22:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:22:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:22:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:22:41 UTC] PHP Notice:  Undefined variable: conn in /home/fliket/public_html/register.php on line 25
+[02-Jan-2025 12:22:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/fliket/public_html/register.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/register.php on line 25
+[02-Jan-2025 12:23:05 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:23:05 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:23:05 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:25:23 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:25:23 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:25:23 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:30:33 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:30:33 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:30:33 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:30:44 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 12:30:44 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 12:30:44 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 12:30:44 UTC] PHP Notice:  Undefined variable: conn in /home/fliket/public_html/register.php on line 75
+[02-Jan-2025 12:30:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/fliket/public_html/register.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/register.php on line 75
+[02-Jan-2025 13:37:02 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 13:37:02 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 13:37:02 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 13:37:02 UTC] PHP Notice:  Undefined variable: conn in /home/fliket/public_html/register.php on line 75
+[02-Jan-2025 13:37:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/fliket/public_html/register.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/register.php on line 75
+[02-Jan-2025 13:38:32 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 13:38:32 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 13:38:32 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 13:58:08 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 13:58:08 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 13:58:08 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 13:58:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/login.php on line 3
+[02-Jan-2025 14:55:07 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 14:55:07 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 14:55:07 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 14:55:40 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 14:55:40 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 14:55:40 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 14:55:51 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 14:55:51 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 14:55:51 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 14:56:03 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 14:56:03 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 14:56:03 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 14:56:04 UTC] PHP Notice:  Undefined variable: conn in /home/fliket/public_html/register.php on line 75
+[02-Jan-2025 14:56:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/fliket/public_html/register.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/register.php on line 75
+[02-Jan-2025 14:56:11 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 14:56:11 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 14:56:11 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 14:58:13 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 14:58:13 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 14:58:13 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:00:31 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:00:31 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:00:31 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:00:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:00:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:00:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:00:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:00:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:00:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:00:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/login.php on line 3
+[02-Jan-2025 15:02:34 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:02:34 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:02:34 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:08:52 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:08:52 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:08:52 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:09:12 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:09:12 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:09:12 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:09:12 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:09:12 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:09:12 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:09:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/auth.php on line 3
+[02-Jan-2025 15:09:12 UTC] PHP Notice:  Undefined variable: auth in /home/fliket/public_html/dashboard.php on line 158
+[02-Jan-2025 15:09:12 UTC] PHP Notice:  Undefined variable: auth in /home/fliket/public_html/dashboard.php on line 164
+[02-Jan-2025 15:09:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isLoggedIn() on null in /home/fliket/public_html/dashboard.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/dashboard.php on line 164
+[02-Jan-2025 15:09:37 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 18
+[02-Jan-2025 15:09:37 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 19
+[02-Jan-2025 15:09:37 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/fliket/public_html/config.php on line 20
+[02-Jan-2025 15:09:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/fliket/public_html/auth.php on line 3
+[02-Jan-2025 15:09:37 UTC] PHP Notice:  Undefined variable: auth in /home/fliket/public_html/dashboard.php on line 158
+[02-Jan-2025 15:09:37 UTC] PHP Notice:  Undefined variable: auth in /home/fliket/public_html/dashboard.php on line 164
+[02-Jan-2025 15:09:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isLoggedIn() on null in /home/fliket/public_html/dashboard.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/fliket/public_html/dashboard.php on line 164
