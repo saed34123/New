@@ -1,5 +1,6 @@
 <?php
-session_start();
+require_once 'config.php';  // يحتوي على اتصال PDO و session_start()
+
 $logged_in = isset($_SESSION['user_id']);
 $username = $logged_in ? $_SESSION['username'] : '';
 ?>
@@ -108,6 +109,12 @@ $username = $logged_in ? $_SESSION['username'] : '';
             color: var(--secondary-color);
             margin-bottom: 20px;
         }
+
+        .user-welcome {
+            color: #fff;
+            margin-right: 15px;
+            font-weight: 500;
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -125,21 +132,26 @@ $username = $logged_in ? $_SESSION['username'] : '';
                     <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
                     <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link btn-custom ms-2" href="login.php">Login</a></li>
-                    <li class="nav-item"><a class="nav-link btn-custom ms-2" href="register.php">Register</a></li>
-                
-                    <?php if ($logged_in): ?>
+                    
+                    <?php if (!$logged_in): ?>
+                        <li class="nav-item">
+                            <a class="nav-link btn-custom ms-2" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-custom ms-2" href="register.php">Register</a>
+                        </li>
+                    <?php else: ?>
                         <li class="nav-item">
                             <span class="user-welcome">Welcome, <?php echo htmlspecialchars($username); ?></span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
+                            <a class="nav-link btn-custom ms-2" href="dashboard.php">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Logout</a>
+                            <a class="nav-link btn-custom ms-2" href="logout.php">Logout</a>
                         </li>
                     <?php endif; ?>
-</ul>
+                </ul>
             </div>
         </div>
     </nav>
@@ -160,7 +172,7 @@ $username = $logged_in ? $_SESSION['username'] : '';
         <div class="container">
             <h2 class="text-center mb-5">Investment Packages</h2>
             <div class="row g-4">
-                <!-- Starter Package Package -->
+                <!-- Starter Package -->
                 <div class="col-md-4">
                     <div class="package-card">
                         <div class="package-header text-center">
@@ -172,26 +184,7 @@ $username = $logged_in ? $_SESSION['username'] : '';
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>30% Monthly Return</li>
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>3 Month Lock Period</li>
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>24/7 Support</li>
-                            
-                    <?php if ($logged_in): ?>
-                        <li class="nav-item">
-                            <span class="user-welcome">Welcome, <?php echo htmlspecialchars($username); ?></span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Logout</a>
-                        </li>
-                    <?php else: ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register.php">Register</a>
-                        </li>
-                    <?php endif; ?>
-</ul>
+                            </ul>
                             <div class="text-center">
                                 <a href="register.php" class="btn btn-custom">Get Started</a>
                             </div>
@@ -211,26 +204,7 @@ $username = $logged_in ? $_SESSION['username'] : '';
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>40% Monthly Return</li>
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>6 Month Lock Period</li>
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Priority Support</li>
-                            
-                    <?php if ($logged_in): ?>
-                        <li class="nav-item">
-                            <span class="user-welcome">Welcome, <?php echo htmlspecialchars($username); ?></span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Logout</a>
-                        </li>
-                    <?php else: ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register.php">Register</a>
-                        </li>
-                    <?php endif; ?>
-</ul>
+                            </ul>
                             <div class="text-center">
                                 <a href="register.php" class="btn btn-custom">Get Started</a>
                             </div>
@@ -250,26 +224,7 @@ $username = $logged_in ? $_SESSION['username'] : '';
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>50% Monthly Return</li>
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>12 Month Lock Period</li>
                                 <li class="mb-3"><i class="fas fa-check text-success me-2"></i>VIP Support</li>
-                            
-                    <?php if ($logged_in): ?>
-                        <li class="nav-item">
-                            <span class="user-welcome">Welcome, <?php echo htmlspecialchars($username); ?></span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Logout</a>
-                        </li>
-                    <?php else: ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register.php">Register</a>
-                        </li>
-                    <?php endif; ?>
-</ul>
+                            </ul>
                             <div class="text-center">
                                 <a href="register.php" class="btn btn-custom">Get Started</a>
                             </div>
@@ -350,26 +305,26 @@ $username = $logged_in ? $_SESSION['username'] : '';
                         <li><a href="#packages" class="text-white">Packages</a></li>
                         <li><a href="#features" class="text-white">Features</a></li>
                         <li><a href="#contact" class="text-white">Contact</a></li>
-                    
+                    </ul>
                     <?php if ($logged_in): ?>
-                        <li class="nav-item">
-                            <span class="user-welcome">Welcome, <?php echo htmlspecialchars($username); ?></span>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="logout.php">Logout</a>
-                        </li>
+                        <ul class="list-unstyled">
+                            <li class="nav-item">
+                                <a class="nav-link btn-custom ms-2 text-white" href="dashboard.php">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-custom ms-2 text-white" href="logout.php">Logout</a>
+                            </li>
+                        </ul>
                     <?php else: ?>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register.php">Register</a>
-                        </li>
+                        <ul class="list-unstyled">
+                            <li class="nav-item">
+                                <a class="nav-link btn-custom ms-2 text-white" href="login.php">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-custom ms-2 text-white" href="register.php">Register</a>
+                            </li>
+                        </ul>
                     <?php endif; ?>
-</ul>
                 </div>
                 <div class="col-md-4">
                     <h3>Contact Info</h3>
